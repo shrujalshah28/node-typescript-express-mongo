@@ -61,7 +61,7 @@
     "jest-express": "^1.11.3",
     "mockingoose": "^2.13.2",
     "nodemon": "^2.0.2",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.2",
     "supertest": "^4.0.2",
     "swagger-ui-express": "^4.1.4",
     "ts-jest": "^25.2.1",

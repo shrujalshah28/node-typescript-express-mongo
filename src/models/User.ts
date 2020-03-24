@@ -40,7 +40,7 @@ const schema = new Schema<IUserDocument>(
   },
 );
 
-schema.pre<IUserDocument>('save', async function(next) {
+schema.pre<IUserDocument>('save', async function (next) {
   if (!this.isModified('password')) {
     return next();
   }
@@ -50,7 +50,7 @@ schema.pre<IUserDocument>('save', async function(next) {
   next();
 });
 
-schema.methods.comparePassword = async function(password: string): Promise<boolean> {
+schema.methods.comparePassword = async function (password: string): Promise<boolean> {
   return await passwordService.comparePassword(password, this.password);
 };
 

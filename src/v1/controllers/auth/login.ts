@@ -26,9 +26,7 @@ let login: RequestHandler = async (req: ILoginRequest, res) => {
 
   const token = await JWTService.signPayload({ id: user.id });
   const options: CookieOptions = {
-    expires: moment()
-      .add(config.ACCESS_TOKEN_LIFETIME_MIN, 'minutes')
-      .toDate(),
+    expires: moment().add(config.ACCESS_TOKEN_LIFETIME_MIN, 'minutes').toDate(),
     secure: req.secure,
     httpOnly: true,
     sameSite: 'strict',

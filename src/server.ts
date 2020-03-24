@@ -26,7 +26,7 @@ if (config.MONGO_URL == undefined) {
 // Close the Mongoose connection, when receiving SIGINT
 process.on('SIGINT', () => {
   logger.info('\nGracefully shutting down');
-  mongoConnection.close(err => {
+  mongoConnection.close((err) => {
     if (err) {
       logger.log({
         level: 'error',

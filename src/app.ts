@@ -10,7 +10,6 @@ import { ApplicationError, NotFoundError } from './errors';
 import routes from './routes';
 import config from './config/config';
 
-
 const app = express();
 
 app.use(

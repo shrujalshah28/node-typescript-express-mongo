@@ -17,7 +17,7 @@ type Environment = {
   SMTP_FROM_EMAIL: string;
 };
 
-const strHex64 = makeValidator<string>(x => {
+const strHex64 = makeValidator<string>((x) => {
   if (/^[0-9a-f]{64}$/.test(x)) {
     return x;
   }
