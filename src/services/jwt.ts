@@ -9,9 +9,7 @@ export class JWT {
   public signPayload = async (payload: string | Buffer | object): Promise<string> =>
     new Promise((resolve, reject) => {
       const signOptions: SignOptions = {
-        expiresIn: moment()
-          .add(this.config.ACCESS_TOKEN_LIFETIME_MIN, 'minutes')
-          .unix(),
+        expiresIn: moment().add(this.config.ACCESS_TOKEN_LIFETIME_MIN, 'minutes').unix(),
       };
       try {
         const token = sign(payload, this.config.SECRET_HEX, signOptions);

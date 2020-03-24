@@ -11,13 +11,13 @@ describe('test password service', () => {
     passwordService = new Password(config);
   });
 
-  test('should return hash password', async done => {
+  test('should return hash password', async (done) => {
     const hash = await passwordService.hashPassword(password);
     expect(hash).not.toEqual(password);
     done();
   });
 
-  test('should verify hash password', async done => {
+  test('should verify hash password', async (done) => {
     const result = await passwordService.comparePassword(password, hash);
     expect(result).toBeTruthy();
     done();

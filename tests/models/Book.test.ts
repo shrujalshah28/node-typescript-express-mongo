@@ -12,7 +12,7 @@ describe('test mongoose User model', () => {
 
     mockingoose(Book).toReturn(_doc, 'findOne');
 
-    return Book.findById({ _id: '507f191e810c19729de860ea' }).then(doc => {
+    return Book.findById({ _id: '507f191e810c19729de860ea' }).then((doc) => {
       expect(JSON.parse(JSON.stringify(doc))).toMatchObject(_doc);
     });
   });

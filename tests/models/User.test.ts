@@ -15,7 +15,7 @@ describe('test mongoose User model', () => {
 
     mockingoose(User).toReturn(_doc, 'findOne');
 
-    return User.findById({ _id: '507f191e810c19729de860ea' }).then(doc => {
+    return User.findById({ _id: '507f191e810c19729de860ea' }).then((doc) => {
       expect(JSON.parse(JSON.stringify(doc))).toMatchObject(returnDoc);
     });
   });

@@ -12,13 +12,13 @@ describe('test JWT service', () => {
     JWTService = new JWT(config);
   });
 
-  test('should return JWT token', async done => {
+  test('should return JWT token', async (done) => {
     const token = await JWTService.signPayload(payload);
     expect(token).toBeTruthy();
     done();
   });
 
-  test('should verify JWT token', async done => {
+  test('should verify JWT token', async (done) => {
     const decryptPayload = (await JWTService.verifyToken(token)) as typeof payload;
     expect(decryptPayload).toBeTruthy();
     expect(decryptPayload.id).toEqual(payload.id);
