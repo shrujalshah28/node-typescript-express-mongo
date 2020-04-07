@@ -51,7 +51,7 @@
     "@types/nodemailer-smtp-transport": "^2.7.4",
     "@types/supertest": "^2.0.8",
     "@types/swagger-ui-express": "^4.1.2",
-    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.25.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
