@@ -23,7 +23,7 @@ const buildBookSeachQuery = (name: string, author: string) => {
 let get: RequestHandler = async (req, res) => {
   const { name, author } = req.query;
 
-  const query = buildBookSeachQuery(name, author);
+  const query = buildBookSeachQuery(name.toString(), author.toString());
   const books = await Book.find(query);
   res.send({ books });
 };
