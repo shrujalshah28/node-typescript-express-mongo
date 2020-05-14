@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/peerbits-shrujal/node-typescript-express-mongo/workflows/Node%20CI/badge.svg)](https://github.com/peerbits-shrujal/node-typescript-express-mongo/actions?workflow=Node%20CI)
+![Node CI](https://github.com/shrujalshah28/node-typescript-express-mongo/workflows/Node%20CI/badge.svg)
 
 # Express TypeScript Boilerplate
 
