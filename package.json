@@ -60,7 +60,7 @@
     "jest": "^25.4.0",
     "jest-express": "^1.12.0",
     "mockingoose": "^2.13.2",
-    "nodemon": "^2.0.3",
+    "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "supertest": "^4.0.2",
     "swagger-ui-express": "^4.1.4",
