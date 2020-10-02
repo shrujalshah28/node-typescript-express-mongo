@@ -1,4 +1,5 @@
 ![Node CI](https://github.com/shrujalshah28/node-typescript-express-mongo/workflows/Node%20CI/badge.svg)
+![CodeQL](https://github.com/shrujalshah28/node-typescript-express-mongo/workflows/CodeQL/badge.svg)
 
 # Express TypeScript Boilerplate
 
