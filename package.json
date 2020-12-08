@@ -65,7 +65,7 @@
     "supertest": "^6.0.1",
     "swagger-ui-express": "^4.1.5",
     "ts-jest": "^25.5.1",
-    "ts-node": "^9.0.0",
+    "ts-node": "^9.1.1",
     "typescript": "^3.9.7"
   },
   "license": "MIT"
