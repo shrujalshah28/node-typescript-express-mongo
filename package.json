@@ -59,7 +59,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "jest": "^25.5.4",
     "jest-express": "^1.12.0",
-    "mockingoose": "^2.13.2",
+    "mockingoose": "^2.15.2",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
     "supertest": "^6.1.3",
