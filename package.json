@@ -56,7 +56,7 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-prettier": "^3.4.1",
     "jest": "^25.5.4",
     "jest-express": "^1.12.0",
     "mockingoose": "^2.13.2",
